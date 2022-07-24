@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.abc {
+  display: flex;
+}
+
+.def {
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: #c2c1c1;
+  justify-content: space-between;
+}
+
+.left {
+  align-items: center;
+}
+
+.right,
+.center {
+  align-items: center;
+}
+
+.right img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  right: 7vh;
+}
+
+.center {
+  width: 728px;
+}
+
+.center input {
+  width: 610px;
+  height: 40px;
+  border: none;
+  outline: 0;
+}
+
+.inputt input::placeholder {
+  color: black;
+}
+
+.searchh {
+  width: 64px;
+  height: 40px;
+  background-color: cornsilk;
+  right: 65px;
+}
+
+.left2 {
+  width: 240px;
+  height: 91vh;
+  background-color: #c2c1c1;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.left2 a,
+.category a {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  align-items: center;
+  width: 240px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+.list img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: relative;
+  left: 4vh;
+}
+
+.list p {
+  font-size: 14px;
+  font-weight: 500;
+  left: 8vh;
+}
+
+.list:hover {
+  background-color: cornsilk;
+}
+
+.sub {
+  left: 4vh;
+  top: 10px;
+  font-size: 14px;
+}
+
+.footer p:nth-child(1) {
+  font-size: 13px;
+  width: 25vh;
+  left: 4vh;
+  top: 20px;
+  line-height: 1.5;
+}
+
+.footer p:nth-child(2) {
+  font-size: 13px;
+  width: 25vh;
+  left: 4vh;
+  top: 30px;
+  line-height: 1.5;
+}
+
+.footer p:nth-child(3) {
+  font-size: 13px;
+  left: 4vh;
+  top: 50px;
+}
+
+.right2 {
+  background-color: #c2c1c1;
+  width: 1110px;
+  height: 91vh;
+  overflow-y: auto;
+}
+
+.category {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.category a {
+  width: 124px;
+  height: 32px;
+  background-color: cornsilk;
+  color: black;
+  margin-top: 1%;
+  transition: 0.5s linear;
+  border-radius: 15px;
+}
+
+.category p {
+  font-size: 14px;
+  top: 7px;
+  text-align: center;
+}
+
+.category a:hover {
+  background-color: black;
+  color: white;
+}
+
+.line hr {
+  margin-top: 1%;
+}
+
+.content {
+  justify-content: space-evenly;
+}
+
+.image img {
+  width: 253px;
+  height: 142px;
+  margin: 8% 0 0 6%;
+}
+
+.down {
+  justify-content: start;
+  position: relative;
+  bottom: 15px;
+}
+
+.down img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.right6 {
+  margin: 22px 0 0 8px;
+}
+
+.right6 h2 {
+  font-size: 14px;
+}
+
+.right6 p {
+  font-size: 12px;
+  line-height: 1.5;
+}
